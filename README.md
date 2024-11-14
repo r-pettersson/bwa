@@ -1,5 +1,5 @@
 # bwa
-SPA Bath
+## SPA Bath
 
 Compiled for raspberry <br>
 
@@ -22,8 +22,8 @@ Compiled for raspberry <br>
 5. HOME ASSISTANT - MQTT->entities->BWA
 
 
-Notes
+## Notes
 mosquitto_pub -t "homie/bwa/spa/pump2/set" -m "true"
 
-Todo:
+## Todo:
 Add my docker compose file
