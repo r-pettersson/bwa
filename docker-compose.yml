@@ -1,0 +1,21 @@
+version: "3"
+services:
+  rogerbwa:
+    image: rogerbwa:v3
+    #platform: linux/arm/v7
+    container_name: rogerbwa
+    restart: unless-stopped
+    environment:
+      # See https://iotbyhvm.ooo/using-uris-to-connect-to-a-mqtt-server/ for MQT
+T_URI format
+      # MQTT_URI *must* be properly URI encoded, e.g. mqtt://useename:pa##word@1
+0.1.10.2 would
+      # be mqtt://username:pa%23%23word@10.1.10.2
+      # BRIDGE_IP and BRIDGE_PORT are the address and port for your serial to IP
+ device or
+      # host running ser2net, socat or ESPEasy serial server
+      MQTT_URI: mqtt://192.168.1.87
+      BRIDGE_IP: 192.168.1.101
+      BRIDGE_PORT: 8899
+      TZ: Sweden/Stockholm
+      LOG_LEVEL: WARN # Any of FATAL, ERROR, WARN, INFO or DEBUG
