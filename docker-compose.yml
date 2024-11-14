@@ -6,13 +6,10 @@ services:
     container_name: rogerbwa
     restart: unless-stopped
     environment:
-      # See https://iotbyhvm.ooo/using-uris-to-connect-to-a-mqtt-server/ for MQT
-T_URI format
-      # MQTT_URI *must* be properly URI encoded, e.g. mqtt://useename:pa##word@1
-0.1.10.2 would
+      # See https://iotbyhvm.ooo/using-uris-to-connect-to-a-mqtt-server/ for MQTT_URI format
+      # MQTT_URI *must* be properly URI encoded, e.g. mqtt://useename:pa##word@10.1.10.2 would
       # be mqtt://username:pa%23%23word@10.1.10.2
-      # BRIDGE_IP and BRIDGE_PORT are the address and port for your serial to IP
- device or
+      # BRIDGE_IP and BRIDGE_PORT are the address and port for your serial to IP device or
       # host running ser2net, socat or ESPEasy serial server
       MQTT_URI: mqtt://192.168.1.87
       BRIDGE_IP: 192.168.1.101
