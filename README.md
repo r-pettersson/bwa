@@ -8,11 +8,11 @@ Compiled for raspberry <br>
 	1. git clone https://github.com/jshank/bwalink.git
  	2. docker buildx build --platform linux/arm/v7 -t rogerbwa:v3 .
   	3. Docker save
-   	4. sftp till linux och lägg dit imagen
+   	4. sftp to linux and add image
 	5. Docker load …..	<br>
 	6. Modify docker-compose ....
 		a. Mqtt
-		b. Ser2net servern
+		b. Ser2net server according to below
 
 
 
