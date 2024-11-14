@@ -3,14 +3,14 @@ SPA Bath
 
 Compiled for raspberry <br>
 
-	1. git clone https://github.com/jshank/bwalink.git<br>
- 	2. docker buildx build --platform linux/arm/v7 -t rogerbwa:v3 .<br>
-  	3. Docker save<br>
-   	4. sftp till linux och lägg dit imagen<br>
+	1. git clone https://github.com/jshank/bwalink.git
+ 	2. docker buildx build --platform linux/arm/v7 -t rogerbwa:v3 .
+  	3. Docker save
+   	4. sftp till linux och lägg dit imagen
 	5. Docker load …..	<br>
-	6. Modify docker-compose ....<br>
-		a. Mqtt<br>
-		b. Ser2net servern<br>
+	6. Modify docker-compose ....
+		a. Mqtt
+		b. Ser2net servern
 
 
 
