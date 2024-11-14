@@ -14,7 +14,7 @@ Compiled for raspberry
 docker-compose -f docker-compose.yml up -d ![image](https://github.com/user-attachments/assets/550842b8-79d0-4d68-ba28-b3f40d45682d)
 
 
-1. EWLINK - config see - https://github.com/jshank/bwalink.git![image](https://github.com/user-attachments/assets/d7e873df-ee34-4328-8d81-8562988afc23)
+1. EWLINK - config see - https://github.com/jshank/bwalink.git
 
 2. 
 
