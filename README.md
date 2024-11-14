@@ -17,10 +17,10 @@ Compiled for raspberry <br>
 
 
 
-1. Connect "RS485" cable - 
+1. Connect "RS485" cable - https://github.com/jshank/bwalink?tab=readme-ov-file#connection-cable
 2. EWLINK config - https://github.com/jshank/bwalink?tab=readme-ov-file#serial-to-ip-device
 3. docker-compose -f docker-compose.yml up -d
-4. check that you get messages @ mosquitto_pub -t homie/#
+4. check that you get messages; `mosquitto_pub -t homie/#`
 5. HOME ASSISTANT - MQTT->entities->BWA
 
 
