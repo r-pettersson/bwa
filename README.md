@@ -1,7 +1,8 @@
 # bwa
 SPA Bath
 
-Compiled for raspberry
+Compiled for raspberry <br>
+
 	1. git clone https://github.com/jshank/bwalink.git<br>
  	2. docker buildx build --platform linux/arm/v7 -t rogerbwa:v3 .<br>
   	3. Docker save<br>
