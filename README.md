@@ -11,11 +11,14 @@ Compiled for raspberry
 		a. Mqtt
 		b. Ser2net servern
 
-docker-compose -f docker-compose.yml up -d ![image](https://github.com/user-attachments/assets/550842b8-79d0-4d68-ba28-b3f40d45682d)
 
 
-1. EWLINK - config see - https://github.com/jshank/bwalink?tab=readme-ov-file#serial-to-ip-device
-2.  
+
+1. Connect "RS485" cable
+2. EWLINK config - https://github.com/jshank/bwalink?tab=readme-ov-file#serial-to-ip-device
+3. docker-compose -f docker-compose.yml up -d
+4. check that you get messages @ mosquitto_pub -t homie/#
+5. HOME ASSISTANT - MQTT->entities->BWA
 
 
 Notes
