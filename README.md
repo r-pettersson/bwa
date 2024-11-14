@@ -7,17 +7,17 @@ Compiled for raspberry <br>
 
 	1. git clone https://github.com/jshank/bwalink.git
  	2. docker buildx build --platform linux/arm/v7 -t rogerbwa:v3 .
-  	3. Docker save
+  	3. docker save ...
    	4. sftp to linux and add image
-	5. Docker load …..	<br>
-	6. Modify docker-compose ....
+	5. docker load …..	<br>
+	6. Modify docker-compose .... see docker-compose in this repo
 		a. Mqtt
 		b. Ser2net server according to below
 
 
 
 
-1. Connect "RS485" cable
+1. Connect "RS485" cable - 
 2. EWLINK config - https://github.com/jshank/bwalink?tab=readme-ov-file#serial-to-ip-device
 3. docker-compose -f docker-compose.yml up -d
 4. check that you get messages @ mosquitto_pub -t homie/#
